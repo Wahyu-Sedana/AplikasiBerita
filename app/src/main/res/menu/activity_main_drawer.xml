@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_antara"
+            android:title="Antara News" />
+        <item
+            android:id="@+id/nav_cnbc"
+            android:title="Cnbc News" />
+        <item
+            android:id="@+id/nav_okezone"
+            android:title="OkeZone News" />
+        <item
+            android:id="@+id/nav_republika"
+            android:title="Republika News" />
+
+        <item
+            android:id="@+id/nav_sindo"
+            android:title="Sindo News" />
+        <item
+            android:id="@+id/nav_tribun"
+            android:title="Tribun News" />
+    </group>
+</menu>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_antara">
+
+    <fragment
+        android:id="@+id/nav_antara"
+        android:name="com.example.okezone.views.fragment.AntaraFragment"
+        android:label="Antara News"
+        tools:layout="@layout/fragment_antara" />
+
+    <fragment
+        android:id="@+id/nav_cnbc"
+        android:name="com.example.okezone.views.fragment.CnbcFragment"
+        android:label="Cnbc News"
+        tools:layout="@layout/fragment_cnbc" />
+
+    <fragment
+        android:id="@+id/nav_okezone"
+        android:name="com.example.okezone.views.fragment.OkeZoneFragment"
+        android:label="OkeZone News"
+        tools:layout="@layout/fragment_oke_zone" />
+
+    <fragment
+        android:id="@+id/nav_republika"
+        android:name="com.example.okezone.views.fragment.RepublikaFragment"
+        android:label="Republika News"
+        tools:layout="@layout/fragment_republika" />
+
+    <fragment
+        android:id="@+id/nav_sindo"
+        android:name="com.example.okezone.views.fragment.SindoFragment"
+        android:label="Sindo News"
+        tools:layout="@layout/fragment_sindo" />
+
+    <fragment
+        android:id="@+id/nav_tribun"
+        android:name="com.example.okezone.views.fragment.TribunFragment"
+        android:label="Tribun News"
+        tools:layout="@layout/fragment_tribun" />
+</navigation>
